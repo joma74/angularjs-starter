@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Material Starter</title>
+        <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    </head>
+    <body ng-app="MyApp" layout="column">
+
+        <md-toolbar layout="row">
+            <h1>Angular Material Starter</h1>
+        </md-toolbar>
+
+        <div class="container" layout="row" flex>
+            <md-sidenav md-is-locked-open="true" class="lightblue">Sidenav</md-sidenav>
+            <md-content id="content" class="lightgreen" flex>Content</md-content>
+        </div>
+
+
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/angular-aria/angular-aria.js"></script>
+        <script src="bower_components/angular-material/angular-material.js"></script>
+        <script>angular.module('MyApp', ['ngMaterial']).run(function () {
+            console.log('MyApp is ready!');
+        })</script>
+        <style>
+            .red {
+                background-color: red
+            }
+
+            .lightblue {
+                background-color: lightblue;
+            }
+
+            .lightgreen {
+                background-color: lightgreen;
+            }
+        </style>
+    </body>
+</html>
