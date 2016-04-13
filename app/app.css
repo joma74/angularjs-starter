@@ -1,68 +1,68 @@
 /* app css stylesheet */
 
 html, body {
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 md-toolbar h3 {
-  margin: auto;
-  font-weight: 500;
+    margin: auto;
+    font-weight: 500;
 }
 
 md-list-item > button {
-  width: 100%;
-  text-align: left !important;
+    width: 100%;
+    text-align: left !important;
 }
 
 #content {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
 }
 
 .avatar {
-  position: relative;
-  width: 128px;
-  height: 128px;
-  border: 1px solid #ddd;
-  border-radius: 50%;
-  display: inline-block;
-  overflow: hidden;
-  margin: 0px;
-  vertical-align: middle;
-  zoom: 0.70;
-  transform: translateZ(0);
+    position: relative;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px;
+    vertical-align: middle;
+    zoom: 0.70;
+    transform: translateZ(0);
 }
 
 .menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
 }
 
 .menu:before {
-  content: "[";
+    content: "[";
 }
 
 .menu:after {
-  content: "]";
+    content: "]";
 }
 
 .menu > li {
-  display: inline;
+    display: inline;
 }
 
 .menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
+    content: "|";
+    padding-right: 0.3em;
 }
 
 .menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
+    content: "";
+    padding: 0;
 }

@@ -5,6 +5,7 @@
         <title>Angular Material Starter</title>
         <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
         <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
     </head>
     <body ng-app="MyApp" layout="column">
 
@@ -13,8 +14,17 @@
         </md-toolbar>
 
         <div class="container" layout="row" flex>
-            <md-sidenav md-is-locked-open="true" class="lightblue">Sidenav</md-sidenav>
-            <md-content id="content" class="lightgreen" flex>Content</md-content>
+            <md-sidenav md-is-locked-open="true" class="md-whiteframe-4dp">
+                <md-list>
+                    <md-list-item>
+                        <md-button>
+                            <md-icon md-svg-icon="avatar_1.svg" class="avatar"></md-icon>
+                            Jörg Maurer
+                        </md-button>
+                    </md-list-item>
+                </md-list>
+            </md-sidenav>
+            <md-content id="content" flex>Content</md-content>
         </div>
 
 
@@ -26,17 +36,6 @@
             console.log('MyApp is ready!');
         })</script>
         <style>
-            .red {
-                background-color: red
-            }
-
-            .lightblue {
-                background-color: lightblue;
-            }
-
-            .lightgreen {
-                background-color: lightgreen;
-            }
         </style>
     </body>
 </html>
